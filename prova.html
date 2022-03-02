@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <link rel="stylesheet" href="css/prova.css">
+</head>
+<body>
+    <button onclick="saluta()"> Saluta </button>
+     <a href="https://www.uniba.it/"> <button> Uniba  </button> </a> 
+    <button onclick="cambiaColore()"> Cambia Colore </button>
+    
+    <p> ciao1 </p>
+    <p> ciao2 </p>
+    <p id="colorep3"> ciao3 </p>
+    <p> ciao4 </p>
+    <p> ciao5 </p>
+
+    <script>
+        function saluta(){
+            alert("ciao")
+        }
+        function cambiaColore() {
+            document.getElementById("colorep3").style.color="red";
+        }
+    </script>
+</body>
+</html>
